@@ -1,8 +1,5 @@
 //	Author - Michael Ibeh
-//	version 0.1 - 10.9.18
-//	
-//	CipherSolve.c
-//	This is a tool to encrypt and decrypt various classical ciphers.
+//
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,29 +28,22 @@ int main(void){
 			case 1:
 				shift_decrypt();
 				break;
-
 			case 2:
 				shift_encrypt();
 				break;
-
 			case 3:
 				affine_decrypt();
 				break;
-
 			case 4:
 				affine_encrypt();
 				break;
-
 			case 5:
 				vigenere_decrypt();
 				break;
-
 			case 6:
 				vigenere_encrypt();
 				break;
-
 		}
 	}
-
 	return 0;
 }

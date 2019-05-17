@@ -1,3 +1,6 @@
+//	Author - Michael Ibeh
+//  License - Apache Version 2.0
+
 #include <stdio.h>
 #include <string.h>
 #include "CipherSolve.h"
@@ -32,7 +35,6 @@ void affine_encrypt(void){
 		temp = temp % 26;
 
 		ciphertext[i] = 'a' + temp;
-
 	}
 
 	ciphertext[i] = '\0';

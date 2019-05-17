@@ -1,3 +1,6 @@
+//	Author - Michael Ibeh
+//  License - Apache Version 2.0
+
 #include <stdio.h>
 #include <string.h>
 #include "CipherSolve.h"
@@ -8,10 +11,9 @@ int mod_inverse(int a, int m){
 
 	a = a % m;
 
-	for(i = 1; i < m; i++){
+	for(i = 1; i < m; i++)
 		if( (a * i) % m == 1)
 			return i;
-	}
 }
 
 void affine_decrypt(void){

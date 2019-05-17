@@ -1,3 +1,6 @@
+//	Author - Michael Ibeh
+//  License - Apache Version 2.0
+
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>

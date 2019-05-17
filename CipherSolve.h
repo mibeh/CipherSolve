@@ -1,3 +1,6 @@
+//	Author - Michael Ibeh
+//  License - Apache Version 2.0
+
 #ifndef __CIPHERSOLVE_H
 #define __CIPHERSOLVE_H
 
