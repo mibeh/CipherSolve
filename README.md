@@ -17,7 +17,7 @@ What would you like to do?
 ## Setup
 ```
 git clone git@github.com:mibeh/CipherSolve.git
-cd CipherSove
+cd CipherSolve
 make
 ./CipherSolve
 ```
