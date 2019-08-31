@@ -16,7 +16,7 @@ What would you like to do?
 
 ## Setup
 ```
-git clone git@github.com:mibeh/CipherSolve.git
+git clone <clone url>
 cd CipherSolve
 make
 ./CipherSolve
